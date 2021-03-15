@@ -1,4 +1,7 @@
 # HelicoBacterMod
+
+![2021-03-15_20 58 25](https://user-images.githubusercontent.com/80515002/111150682-bec25d00-85d1-11eb-9a79-4bf3d85c82ed.png)
+
 HelicoBacterModは、あなたのマインクラフトにかわいいピロリ菌たちを追加するよ！
 
 右にあるReleasesからhelicobactermod-1.0.1.jarをダウンロードしてね！
