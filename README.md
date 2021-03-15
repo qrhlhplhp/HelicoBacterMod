@@ -4,8 +4,8 @@
 
 HelicoBacterModは、あなたのマインクラフトにかわいいピロリ菌たちを追加するよ！
 
-右にあるReleasesからhelicobactermod-1.0.1.jarをダウンロードしてね！
-<h1>動作環境</h2>
+右（または下）にあるReleasesからhelicobactermod-1.0.1.jarをダウンロードしてね！
+<h1>動作環境</h1>
 <p><strong>Minecraft Java,1.14.4-Forge-28.1.0</strong></p>
 
 <p><strong>※Forge-MC1.14.4のRecomendedはForgeのバージョンが28.2.0なので動作しないよ！
@@ -209,3 +209,10 @@ All Versionsから28.1.0のForgeをダウンロードしてね！</strong></p>
 ピロリ菌硬質ブロックをウレアーゼで囲む形で計九つ並べると一つ手に入ります。
 
 光源ブロックです。
+<h1>これから作りたいもの</h1>
+
+・腐敗した胃や細菌が繁殖した胃
+
+・新しい素材とツール、防具
+
+・ピロリ菌のMOB
