@@ -1,5 +1,7 @@
 # HelicoBacterMod
 HelicoBacterModは、あなたのマインクラフトにかわいいピロリ菌たちを追加するよ！
+
+右にあるReleasesからhelicobactermod-1.0.1.jarをダウンロードしてね！
 <h1>動作環境</h2>
 <p><strong>Minecraft Java,1.14.4-Forge-28.1.0</strong></p>
 
