@@ -1,0 +1,241 @@
+[1432021 19:13:25.116] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.1.0, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\pylori169\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[1432021 19:13:25.116] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 3.2.0+60+b86c1d4 starting: java version 1.8.0_282 by Amazon.com Inc.
+[1432021 19:13:25.431] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[1432021 19:13:26.104] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\pylori169\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[1432021 19:13:27.753] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[1432021 19:13:36.045] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[1432021 19:13:36.077] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
+[1432021 19:13:37.198] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.1.0, for MC 1.14.4 with MCP 20190829.143755
+[1432021 19:13:37.199] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.1.0 Initialized
+[1432021 19:13:37.991] [Client thread/ERROR] [net.minecraft.resources.ResourcePack/]: Couldn't load pack metadata
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Expected name at line 5 column 6 path $.pack.pack_format
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:359) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:411) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:419) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.resources.ResourcePack.getResourceMetadata(ResourcePack.java:75) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.resources.ResourcePack.getMetadata(ResourcePack.java:65) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.resources.ResourcePackInfo.createResourcePack(ResourcePackInfo.java:38) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraftforge.fml.packs.ResourcePackLoader$ModPackFinder.addPackInfosToMap(ResourcePackLoader.java:76) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.resources.ResourcePackList.reloadPacksFromFinders(ResourcePackList.java:34) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:457) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:365) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:128) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-3.2.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:50) [modlauncher-3.2.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:68) [modlauncher-3.2.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:80) [modlauncher-3.2.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-3.2.0.jar:?]
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:101) [forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 5 column 6 path $.pack.pack_format
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:505) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:738) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:357) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	... 21 more
+[1432021 19:13:38.005] [Client thread/ERROR] [net.minecraft.resources.ResourcePackInfo/]: Broken/missing pack.mcmeta detected, fudging it into existance. Please check that your launcher has downloaded all assets for the game correctly!
+[1432021 19:13:38.031] [Client thread/ERROR] [net.minecraft.resources.ResourcePack/]: Couldn't load language metadata
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Expected name at line 5 column 6 path $.pack.pack_format
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:359) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:411) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:419) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.resources.ResourcePack.getResourceMetadata(ResourcePack.java:75) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.resources.ResourcePack.getMetadata(ResourcePack.java:65) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.client.resources.LanguageManager.parseLanguageMetadata(LanguageManager.java:37) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:466) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:365) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:128) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_282]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_282]
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-3.2.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:50) [modlauncher-3.2.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:68) [modlauncher-3.2.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:80) [modlauncher-3.2.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-3.2.0.jar:?]
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:101) [forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 5 column 6 path $.pack.pack_format
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:505) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:738) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:357) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
+	... 19 more
+[1432021 19:13:39.307] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[1432021 19:13:39.484] [modloading-worker-9/INFO] [jp.qhrlhplhp.helicobactermod.HelicoBacterMod/]: HELLO FROM PREINIT
+[1432021 19:13:39.485] [modloading-worker-9/INFO] [jp.qhrlhplhp.helicobactermod.HelicoBacterMod/]: DIRT BLOCK >> minecraft:dirt
+[1432021 19:13:39.486] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[1432021 19:13:40.471] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[1432021 19:13:40.471] [modloading-worker-9/INFO] [jp.qhrlhplhp.helicobactermod.HelicoBacterMod/]: Got game settings net.minecraft.client.GameSettings@f8c7778
+[1432021 19:13:41.450] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[1432021 19:13:41.618] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 28.1.0 Target: 28.2.0
+[1432021 19:13:41.618] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [helicobactermod] Starting version check at http://myurl.me/
+[1432021 19:13:41.899] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.IOException: Server returned HTTP response code: 403 for URL: http://myurl.me/
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_282]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_282]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_282]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_282]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950) ~[?:1.8.0_282]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945) ~[?:1.8.0_282]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_282]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944) ~[?:1.8.0_282]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514) ~[?:1.8.0_282]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498) ~[?:1.8.0_282]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:189) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:206) ~[?:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_282]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:157) [?:?]
+Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL: http://myurl.me/
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900) ~[?:1.8.0_282]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498) ~[?:1.8.0_282]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_282]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
+	... 3 more
+[1432021 19:13:43.343] [modloading-worker-9/INFO] [jp.qhrlhplhp.helicobactermod.HelicoBacterMod/]: Got IMC []
+[1432021 19:13:43.638] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[1432021 19:13:43.887] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[1432021 19:13:43.888] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[1432021 19:13:44.022] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512 textures-atlas
+[1432021 19:13:44.493] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
+[1432021 19:13:44.495] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
+[1432021 19:13:44.497] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
+[1432021 19:13:49.672] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[1432021 19:13:49.673] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[1432021 19:13:49.673] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[1432021 19:13:49.674] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[1432021 19:13:49.674] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[1432021 19:13:49.788] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.14.4
+[1432021 19:13:49.789] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[1432021 19:13:49.914] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[1432021 19:13:50.077] [Server thread/ERROR] [net.minecraft.resources.ResourcePack/]: Couldn't load pack metadata
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Expected name at line 5 column 6 path $.pack.pack_format
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:359) ~[?:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:411) ~[?:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:419) ~[?:?]
+	at net.minecraft.resources.ResourcePack.getResourceMetadata(ResourcePack.java:75) [?:?]
+	at net.minecraft.resources.ResourcePack.getMetadata(ResourcePack.java:65) [?:?]
+	at net.minecraft.resources.ResourcePackInfo.createResourcePack(ResourcePackInfo.java:38) [?:?]
+	at net.minecraftforge.fml.packs.ResourcePackLoader$ModPackFinder.addPackInfosToMap(ResourcePackLoader.java:76) [?:?]
+	at net.minecraft.resources.ResourcePackList.reloadPacksFromFinders(ResourcePackList.java:34) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:429) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:622) [?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_282]
+Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 5 column 6 path $.pack.pack_format
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:505) ~[gson-2.8.0.jar:?]
+	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:738) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:739) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$29.read(TypeAdapters.java:714) ~[gson-2.8.0.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
+	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:357) ~[?:?]
+	... 12 more
+[1432021 19:13:50.079] [Server thread/ERROR] [net.minecraft.resources.ResourcePackInfo/]: Broken/missing pack.mcmeta detected, fudging it into existance. Please check that your launcher has downloaded all assets for the game correctly!
+[1432021 19:13:50.081] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar
+[1432021 19:13:50.927] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe helicobactermod:pylori_ingot
+com.google.gson.JsonSyntaxException: Unknown item 'example_mod:pylori_ingot'
+	at net.minecraft.item.crafting.ShapedRecipe.lambda$deserializeItem$0(ShapedRecipe.java:280) ~[?:?]
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_282]
+	at net.minecraft.item.crafting.ShapedRecipe.deserializeItem(ShapedRecipe.java:279) ~[?:?]
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.read(ShapelessRecipe.java:96) ~[?:?]
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.read(ShapelessRecipe.java:86) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.deserializeRecipe(RecipeManager.java:140) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:37) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_282]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_282]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_282]
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) [?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) [?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:726) [?:?]
+	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:720) [?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:123) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:1549) [?:?]
+	at net.minecraft.server.MinecraftServer.loadDataPacks(MinecraftServer.java:442) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:75) [?:?]
+	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:622) [?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_282]
+[1432021 19:13:50.946] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[1432021 19:13:51.810] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 811 advancements
+[1432021 19:13:52.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[1432021 19:13:52.989] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：0%
+[1432021 19:13:52.989] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：0%
+[1432021 19:13:53.225] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：50%
+[1432021 19:13:54.563] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：83%
+[1432021 19:13:54.563] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：83%
+[1432021 19:13:54.672] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：98%
+[1432021 19:13:55.061] [Server thread/INFO] [jp.qhrlhplhp.helicobactermod.HelicoBacterMod/]: HELLO from server starting
+[1432021 19:13:55.069] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 2912 ms
+[1432021 19:13:55.487] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[1432021 19:13:55.487] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[1432021 19:13:58.413] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[1432021 19:13:58.577] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:1a0e6e52] logged in with entity id 261 at (-151.44667512594648, 67.79673560066871, 155.69999998807907)
+[1432021 19:13:58.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev がゲームに参加しました
+[1432021 19:13:58.883] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[1432021 19:13:58.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level '新規ワールド'/minecraft:overworld
+[1432021 19:13:59.270] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 56 advancements
+[1432021 19:14:14.436] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 57 advancements
+[1432021 19:14:14.519] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 57 advancements
+[1432021 19:14:23.201] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[1432021 19:14:23.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level '新規ワールド'/minecraft:overworld
+[1432021 19:15:52.142] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ［デバッグ］： 高度な情報：表示
+[1432021 19:16:07.927] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 67 advancements
+[1432021 19:16:16.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをクリエイティブモードに変更しました]
+[1432021 19:16:16.782] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをクリエイティブモードに変更しました
+[1432021 19:16:40.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev は進捗 [不気味で怖いスケルトン] を達成した
+[1432021 19:16:40.680] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev は進捗 [不気味で怖いスケルトン] を達成した
+[1432021 19:16:40.714] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 73 advancements
+[1432021 19:16:44.952] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[1432021 19:16:44.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level '新規ワールド'/minecraft:overworld
+[1432021 19:16:54.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev は進捗 [荒が丘] を達成した
+[1432021 19:16:54.900] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev は進捗 [荒が丘] を達成した
+[1432021 19:16:54.929] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 74 advancements
+[1432021 19:17:09.518] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 75 advancements
+[1432021 19:17:26.241] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[1432021 19:17:26.255] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[1432021 19:17:27.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev は進捗 [エンドの解放] を達成した
+[1432021 19:17:27.756] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev は進捗 [エンドの解放] を達成した
+[1432021 19:17:27.757] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 82 advancements
+[1432021 19:17:44.114] [Client thread/WARN] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
+[1432021 19:18:03.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[1432021 19:18:03.370] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[1432021 19:18:16.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをサバイバルモードに変更しました]
+[1432021 19:18:16.526] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをサバイバルモードに変更しました
+[1432021 19:18:27.965] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 不明なコマンドです
+[1432021 19:18:27.965] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] //←［問題箇所］
+[1432021 19:18:41.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをクリエイティブモードに変更しました]
+[1432021 19:18:41.469] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをクリエイティブモードに変更しました
+[1432021 19:19:01.501] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[1432021 19:19:01.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level '新規ワールド'/minecraft:overworld
+[1432021 19:19:01.962] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: 切断されました
+[1432021 19:19:01.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev がゲームを退出しました
+[1432021 19:19:01.970] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[1432021 19:19:02.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[1432021 19:19:02.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[1432021 19:19:02.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[1432021 19:19:02.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level '新規ワールド'/minecraft:overworld
+[1432021 19:19:02.250] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (新規ワールド): All chunks are saved
+[1432021 19:19:02.274] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (新規ワールド): All chunks are saved
+[1432021 19:19:02.943] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[1432021 19:19:02.945] [Sound engine/ERROR] [net.minecraft.client.audio.ALUtils/]: Stop: Invalid name parameter.

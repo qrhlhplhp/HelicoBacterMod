@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "helicobactermod:stomach"
+    }
+  ],
+  "result": {
+    "item": "helicobactermod:pylori",
+    "count": 3
+  }
+}
