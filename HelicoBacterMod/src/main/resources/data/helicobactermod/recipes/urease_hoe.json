@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "helicobactermod:urease"
+    },
+    "X": {
+      "item": "helicobactermod:pylori_hoe"
+    }
+  },
+  "result": {
+    "item": "helicobactermod:urease_hoe"
+  }
+}

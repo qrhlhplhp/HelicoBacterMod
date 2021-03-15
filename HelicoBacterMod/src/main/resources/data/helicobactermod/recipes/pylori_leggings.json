@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "helicobactermod:pylori_ingot"
+    }
+  },
+  "result": {
+    "item": "helicobactermod:pylori_leggings"
+  }
+}
