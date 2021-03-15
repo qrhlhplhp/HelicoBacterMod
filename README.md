@@ -8,6 +8,10 @@ All Versionsから28.1.0のForgeをダウンロードしてね！</strong></p>
 <h1>追加要素</h1>
 <h2>素材アイテム</h2>
 <h3>胃</h3>
+
+![stomach](https://user-images.githubusercontent.com/80515002/111146931-55404f80-85cd-11eb-87d9-56fffae34966.png)
+
+
 生肉（牛肉、豚肉、鶏肉、羊肉、兎肉、腐肉）をクラフトすると一つ手に入ります。
 
 <h3>ピロリ菌</h3>
