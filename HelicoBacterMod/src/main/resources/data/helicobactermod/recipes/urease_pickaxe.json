@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "helicobactermod:urease"
+    },
+    "X": {
+      "item": "helicobactermod:pylori_pickaxe"
+    }
+  },
+  "result": {
+    "item": "helicobactermod:urease_pickaxe"
+  }
+}
