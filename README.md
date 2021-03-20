@@ -1,10 +1,10 @@
 # HelicoBacterMod
 
-![2021-03-15_20 58 25](https://user-images.githubusercontent.com/80515002/111150682-bec25d00-85d1-11eb-9a79-4bf3d85c82ed.png)
+![2021-03-20_16 35 30](https://user-images.githubusercontent.com/80515002/111862700-5214dd00-899a-11eb-8186-fbdfdb7f93f4.png)
 
 HelicoBacterModは、あなたのマインクラフトにかわいいピロリ菌たちを追加するよ！
 
-右（または下）にあるReleasesからhelicobactermod-1.0.1.jarをダウンロードしてね！
+右（または下）にあるReleasesからhelicobactermod.jarをダウンロードしてね！
 <h1>動作環境</h1>
 <p><strong>Minecraft Java,1.14.4-Forge-28.1.0</strong></p>
 
@@ -16,7 +16,7 @@ All Versionsから28.1.0のForgeをダウンロードしてね！</strong></p>
 
 ![stomach](https://user-images.githubusercontent.com/80515002/111146931-55404f80-85cd-11eb-87d9-56fffae34966.png)
 
-生肉（牛肉、豚肉、鶏肉、羊肉、兎肉、腐肉）をクラフトすると一つ手に入ります。
+生肉（牛肉、豚肉、鶏肉、羊肉、兎肉）をクラフトすると一つ手に入ります。
 
 <h3>ピロリ菌</h3>
 
@@ -44,15 +44,27 @@ All Versionsから28.1.0のForgeをダウンロードしてね！</strong></p>
 
 <h3>発酵した胃</h3>
 
-![fermented_stomach](https://user-images.githubusercontent.com/80515002/111147204-90428300-85cd-11eb-9d54-176c089ca6b0.png)
+![fermented_stomach](https://user-images.githubusercontent.com/80515002/111862237-673c3c80-8997-11eb-8f2b-b0697fe57445.png)
 
 胃、茶キノコ、砂糖を同時にクラフトすると一つ手に入ります。
+
+<h3>腐敗した胃</h3>
+
+![rotten_stomach](https://user-images.githubusercontent.com/80515002/111862225-512e7c00-8997-11eb-9ed8-e68ad97d34e2.png)
+
+胃、腐肉、青いジャガイモを同時にクラフトすると一つ手に入ります。
+
+<h3>細菌が繁殖した胃</h3>
+
+![breeded_stomach](https://user-images.githubusercontent.com/80515002/111862246-77ecb280-8997-11eb-90a6-9241f0b16a01.png)
+
+発酵した胃、腐敗した胃を同時にクラフトすると一つ手に入ります。
 
 <h3>ウレアーゼに塗れたピロリ菌</h3>
 
 ![urease_pylori](https://user-images.githubusercontent.com/80515002/111147217-959fcd80-85cd-11eb-82e0-411daffbfaf9.png)
 
-発酵した胃をクラフトすると一つ手に入ります。
+細菌が繁殖した胃をクラフトすると一つ手に入ります。
 
 <h3>ウレアーゼ</h3>
 
@@ -181,6 +193,12 @@ All Versionsから28.1.0のForgeをダウンロードしてね！</strong></p>
 ![urease_boots](https://user-images.githubusercontent.com/80515002/111147582-fcbd8200-85cd-11eb-80b4-280b301c26d7.png)
 
 ピロリ菌のブーツをウレアーゼで囲む形で計九つ並べると一つ手に入ります。
+<h3>その他の防具</h3>
+<h4>ピロリ菌のお面</h4>
+
+![pylori](https://user-images.githubusercontent.com/80515002/111862335-0f520580-8998-11eb-8505-61cd008f933e.png)
+
+ただのお面。レシピ作るの忘れてたので通常プレイでは入手できません。
 <h2>ブロック</h2>
 <h3>ピロリ菌ブロック</h3>
 
@@ -190,7 +208,8 @@ All Versionsから28.1.0のForgeをダウンロードしてね！</strong></p>
 
 <h3>ピロリ菌硬質ブロック</h3>
 
-![pylori_block](https://user-images.githubusercontent.com/80515002/111147613-0646ea00-85ce-11eb-96ba-57b98ab2f560.png)
+![pylori_block](https://user-images.githubusercontent.com/80515002/111862280-af5b5f00-8997-11eb-8603-3ce7384f5f52.png)
+
 
 ピロリ菌のインゴッドを、鉱石ブロックをクラフトする形に九つ並べると一つ手に入ります。
   
@@ -204,15 +223,15 @@ All Versionsから28.1.0のForgeをダウンロードしてね！</strong></p>
 
 <h3>ウレアーゼに塗れたピロリ菌硬質ブロック</h3>
 
-![urease_block](https://user-images.githubusercontent.com/80515002/111147629-09da7100-85ce-11eb-9476-1626640ff3a9.png)
+![urease_block](https://user-images.githubusercontent.com/80515002/111862277-a9fe1480-8997-11eb-8e0e-d139c2e1b45c.png)
 
 ピロリ菌硬質ブロックをウレアーゼで囲む形で計九つ並べると一つ手に入ります。
 
 光源ブロックです。
 <h1>これから作りたいもの</h1>
 
-・腐敗した胃や細菌が繁殖した胃
-
 ・新しい素材とツール、防具
+
+・ピロリ菌のお面のレシピ（つくるの完全に忘れてた）
 
 ・ピロリ菌のMOB
