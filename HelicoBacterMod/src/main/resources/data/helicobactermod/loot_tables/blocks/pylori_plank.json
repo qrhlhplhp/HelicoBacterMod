@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "type": "minecraft:block",
   "pools": [
@@ -12,19 +11,4 @@
       ]
     }
   ]
-=======
-{
-  "type": "minecraft:block",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "helicobactermod:pylori_plank"
-        }
-      ]
-    }
-  ]
->>>>>>> test
 }

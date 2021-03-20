@@ -1,24 +1,11 @@
-<<<<<<< HEAD
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "helicobactermod:fermented_stomach"
+      "item": "helicobactermod:breeded_stomach"
     }
   ],
   "result": {
     "item": "helicobactermod:urease_pylori"
   }
-=======
-{
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "helicobactermod:fermented_stomach"
-    }
-  ],
-  "result": {
-    "item": "helicobactermod:urease_pylori"
-  }
->>>>>>> test
 }

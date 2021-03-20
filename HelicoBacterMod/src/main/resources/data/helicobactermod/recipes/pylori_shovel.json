@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
@@ -17,24 +16,4 @@
   "result": {
     "item": "helicobactermod:pylori_shovel"
   }
-=======
-{
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#",
-    "X",
-    "X"
-  ],
-  "key": {
-    "#": {
-      "item": "helicobactermod:pylori_ingot"
-    },
-    "X": {
-      "item": "helicobactermod:pylori_stick"
-    }
-  },
-  "result": {
-    "item": "helicobactermod:pylori_shovel"
-  }
->>>>>>> test
 }

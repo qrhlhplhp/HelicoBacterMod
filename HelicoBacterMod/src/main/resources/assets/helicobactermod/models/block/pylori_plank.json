@@ -1,14 +1,6 @@
-<<<<<<< HEAD
 {
   "parent": "block/cube_all",
   "textures": {
     "all": "helicobactermod:blocks/pylori_plank"
   }
-=======
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "helicobactermod:blocks/pylori_plank"
-  }
->>>>>>> test
 }

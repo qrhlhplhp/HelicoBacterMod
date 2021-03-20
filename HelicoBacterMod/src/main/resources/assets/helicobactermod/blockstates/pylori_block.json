@@ -1,12 +1,5 @@
-<<<<<<< HEAD
 {
   "variants": {
     "": { "model": "helicobactermod:block/pylori_block" }
   }
-=======
-{
-  "variants": {
-    "": { "model": "helicobactermod:block/pylori_block" }
-  }
->>>>>>> test
 }

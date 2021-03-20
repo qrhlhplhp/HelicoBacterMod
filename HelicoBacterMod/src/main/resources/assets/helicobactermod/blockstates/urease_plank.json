@@ -1,12 +1,5 @@
-<<<<<<< HEAD
 {
   "variants": {
     "": { "model": "helicobactermod:block/urease_plank" }
   }
-=======
-{
-  "variants": {
-    "": { "model": "helicobactermod:block/urease_plank" }
-  }
->>>>>>> test
 }

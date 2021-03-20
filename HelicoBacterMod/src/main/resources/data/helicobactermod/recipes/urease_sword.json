@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
@@ -17,24 +16,4 @@
   "result": {
     "item": "helicobactermod:urease_sword"
   }
-=======
-{
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "#X#",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "helicobactermod:urease"
-    },
-    "X": {
-      "item": "helicobactermod:pylori_sword"
-    }
-  },
-  "result": {
-    "item": "helicobactermod:urease_sword"
-  }
->>>>>>> test
 }

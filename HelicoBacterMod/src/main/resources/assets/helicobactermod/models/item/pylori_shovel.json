@@ -1,14 +1,6 @@
-<<<<<<< HEAD
 {
   "parent": "item/handheld",
   "textures": {
     "layer0": "helicobactermod:items/pylori_shovel"
   }
-=======
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "helicobactermod:items/pylori_shovel"
-  }
->>>>>>> test
 }

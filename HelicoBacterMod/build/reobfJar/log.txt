@@ -1,4 +1,4 @@
-Args: "--in-jar", "C:\Mods\HelicoBacterMod\build\libs\modid-1.14.4-1.0.1.jar", "--out-jar", "C:\Mods\HelicoBacterMod\build\reobfJar\output.jar", "--srg-in", "C:\Mods\HelicoBacterMod\build\createMcpToSrg\output.tsrg", "--live"
+Args: "--in-jar", "C:\Mods\HelicoBacterMod\build\libs\modid-1.14.4-1.1.0.jar", "--out-jar", "C:\Mods\HelicoBacterMod\build\reobfJar\output.jar", "--srg-in", "C:\Mods\HelicoBacterMod\build\createMcpToSrg\output.tsrg", "--live"
 Classpath: C:\Users\pylori169\.gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.8.3\SpecialSource-1.8.3-shaded.jar
 Classpath: C:\Users\pylori169\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3\forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar
 Classpath: C:\Users\pylori169\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3\forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-launcher.jar

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:poisonous_potato"
+    },
+    {
+      "item": "helicobactermod:stomach"
+    }
+  ],
+  "result": {
+    "item": "helicobactermod:rotten_stomach"
+  }
+}

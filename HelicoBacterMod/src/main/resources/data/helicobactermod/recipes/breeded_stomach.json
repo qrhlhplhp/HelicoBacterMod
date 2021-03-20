@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "helicobactermod:fermented_stomach"
+    },
+    {
+      "item": "helicobactermod:rotten_stomach"
+    }
+  ],
+  "result": {
+    "item": "helicobactermod:breeded_stomach"
+  }
+}

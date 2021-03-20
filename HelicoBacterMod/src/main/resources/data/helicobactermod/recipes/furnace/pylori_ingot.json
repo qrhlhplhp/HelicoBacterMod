@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "type": "minecraft:smelting",
   "ingredient": {
@@ -9,16 +8,4 @@
   },
   "experience": 0.5,
   "cookingtime": 100
-=======
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "helicobactermod:pylori_lump"
-  },
-  "result": {
-    "item": "helicobactermod:pylori_ingot"
-  },
-  "experience": 0.5,
-  "cookingtime": 100
->>>>>>> test
 }

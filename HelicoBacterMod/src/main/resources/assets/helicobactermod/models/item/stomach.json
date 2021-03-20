@@ -1,14 +1,6 @@
-<<<<<<< HEAD
 {
   "parent": "item/generated",
   "textures": {
     "layer0": "helicobactermod:items/stomach"
   }
-=======
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "helicobactermod:items/stomach"
-  }
->>>>>>> test
 }

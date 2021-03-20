@@ -7,12 +7,12 @@ modId="helicobactermod"
 version="${file.jarVersion}"
 displayName="Helico Bacter Mod"
 updateJSONURL="http://myurl.me/"
-displayURL="https://twitter.com/popcorn_bomzone"
+displayURL="https://github.com/qrhlhplhp/HelicoBacterMod"
 logoFile="logo.png"
 credits="たくさんのピロリ菌たち"
 authors="伊藤しえる"
 description='''
-かわいいピロリ菌をたくさん追加するよ！
+かわいいピロリ菌たちをたくさん追加するよ！
 '''
 
 [[dependencies.helicobactermod]]

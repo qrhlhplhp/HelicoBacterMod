@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
@@ -19,40 +18,11 @@
         "item": "minecraft:rabbit"
       },
       {
-        "item": "minecraft:rotten_flesh"
+        "item": "minecraft:mutton"
       }
     ]
   },
   "result": {
     "item": "helicobactermod:stomach"
   }
-=======
-{
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#"
-  ],
-  "key": {
-    "#": [
-      {
-        "item": "minecraft:beef"
-      },
-      {
-        "item": "minecraft:porkchop"
-      },
-      {
-        "item": "minecraft:chicken"
-      },
-      {
-        "item": "minecraft:rabbit"
-      },
-      {
-        "item": "minecraft:rotten_flesh"
-      }
-    ]
-  },
-  "result": {
-    "item": "helicobactermod:stomach"
-  }
->>>>>>> test
 }
