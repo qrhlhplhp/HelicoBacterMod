@@ -13,9 +13,9 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.14.4-1.1.0'
-group = 'com.yourname.modid' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'modid'
+version = '1.1.1'
+group = 'HelicoBacterMod.com.github' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'helicobactermod'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
@@ -74,7 +74,7 @@ minecraft {
             // Recommended logging level for the console
             property 'forge.logging.console.level', 'debug'
 
-            args '--mod', 'examplemod', '--all', '--output', file('src/generated/resources/')
+            args '--mod', 'helicobactermod', '--all', '--output', file('src/generated/resources/')
 
             mods {
                 examplemod {
@@ -126,10 +126,6 @@ jar {
     }
 }
 
-// Example configuration to allow publishing using the maven-publish task
-// we define a custom artifact that is sourced from the reobfJar output task
-// and then declare that to be published
-// Note you'll need to add a repository here
 def reobfFile = file("$buildDir/reobfJar/output.jar")
 def reobfArtifact = artifacts.add('default', reobfFile) {
     type 'jar'

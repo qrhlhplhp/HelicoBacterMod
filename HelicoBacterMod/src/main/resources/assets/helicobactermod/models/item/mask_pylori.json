@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "helicobactermod:items/pylori"
+    "layer0": "helicobactermod:items/mask_pylori"
   }
 }

@@ -1,13 +1,13 @@
-[2032021 13:29:16.717] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.1.0, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\pylori169\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
-[2032021 13:29:16.720] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 3.2.0+60+b86c1d4 starting: java version 1.8.0_282 by Amazon.com Inc.
-[2032021 13:29:17.053] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[2032021 13:29:17.725] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\pylori169\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ????????, --userProperties, {}]
-[2032021 13:29:19.355] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[2032021 13:29:27.669] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
-[2032021 13:29:27.691] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
-[2032021 13:29:28.939] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.1.0, for MC 1.14.4 with MCP 20190829.143755
-[2032021 13:29:28.939] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.1.0 Initialized
-[2032021 13:29:29.822] [Client thread/ERROR] [net.minecraft.resources.ResourcePack/]: Couldn't load pack metadata
+[2032021 18:51:05.367] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.1.0, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\pylori169\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[2032021 18:51:05.371] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 3.2.0+60+b86c1d4 starting: java version 1.8.0_282 by Amazon.com Inc.
+[2032021 18:51:05.699] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[2032021 18:51:06.448] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\pylori169\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[2032021 18:51:08.419] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[2032021 18:51:18.630] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[2032021 18:51:18.652] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
+[2032021 18:51:19.906] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.1.0, for MC 1.14.4 with MCP 20190829.143755
+[2032021 18:51:19.907] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.1.0 Initialized
+[2032021 18:51:20.525] [Client thread/ERROR] [net.minecraft.resources.ResourcePack/]: Couldn't load pack metadata
 com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Expected name at line 5 column 6 path $.pack.pack_format
 	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:359) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
 	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:411) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
@@ -41,8 +41,8 @@ Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 
 	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
 	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:357) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
 	... 21 more
-[2032021 13:29:29.835] [Client thread/ERROR] [net.minecraft.resources.ResourcePackInfo/]: Broken/missing pack.mcmeta detected, fudging it into existance. Please check that your launcher has downloaded all assets for the game correctly!
-[2032021 13:29:29.855] [Client thread/ERROR] [net.minecraft.resources.ResourcePack/]: Couldn't load language metadata
+[2032021 18:51:20.539] [Client thread/ERROR] [net.minecraft.resources.ResourcePackInfo/]: Broken/missing pack.mcmeta detected, fudging it into existance. Please check that your launcher has downloaded all assets for the game correctly!
+[2032021 18:51:20.571] [Client thread/ERROR] [net.minecraft.resources.ResourcePack/]: Couldn't load language metadata
 com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Expected name at line 5 column 6 path $.pack.pack_format
 	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:359) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
 	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:411) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
@@ -74,16 +74,15 @@ Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 
 	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
 	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:357) ~[forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
 	... 19 more
-[2032021 13:29:31.123] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[2032021 13:29:31.307] [modloading-worker-9/INFO] [jp.qhrlhplhp.helicobactermod.HelicoBacterMod/]: HELLO FROM PREINIT
-[2032021 13:29:31.308] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
-[2032021 13:29:31.308] [modloading-worker-9/INFO] [jp.qhrlhplhp.helicobactermod.HelicoBacterMod/]: DIRT BLOCK >> minecraft:dirt
-[2032021 13:29:32.302] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[2032021 13:29:32.304] [modloading-worker-9/INFO] [jp.qhrlhplhp.helicobactermod.HelicoBacterMod/]: Got game settings net.minecraft.client.GameSettings@46e25e9e
-[2032021 13:29:33.440] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[2032021 13:29:33.457] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 28.1.0 Target: 28.2.0
-[2032021 13:29:33.457] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [helicobactermod] Starting version check at http://myurl.me/
-[2032021 13:29:33.746] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[2032021 18:51:22.872] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[2032021 18:51:23.068] [modloading-worker-9/INFO] [jp.qhrlhplhp.helicobactermod.HelicoBacterMod/]: HELLO FROM PREINIT
+[2032021 18:51:23.068] [modloading-worker-9/INFO] [jp.qhrlhplhp.helicobactermod.HelicoBacterMod/]: DIRT BLOCK >> minecraft:dirt
+[2032021 18:51:23.159] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[2032021 18:51:23.160] [modloading-worker-9/INFO] [jp.qhrlhplhp.helicobactermod.HelicoBacterMod/]: Got game settings net.minecraft.client.GameSettings@674b598f
+[2032021 18:51:24.856] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 28.1.0 Target: 28.2.0
+[2032021 18:51:24.856] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [helicobactermod] Starting version check at http://myurl.me/
+[2032021 18:51:24.876] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[2032021 18:51:25.149] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.io.IOException: Server returned HTTP response code: 403 for URL: http://myurl.me/
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_282]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_282]
@@ -105,24 +104,24 @@ Caused by: java.io.IOException: Server returned HTTP response code: 403 for URL:
 	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_282]
 	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
 	... 3 more
-[2032021 13:29:35.094] [modloading-worker-9/INFO] [jp.qhrlhplhp.helicobactermod.HelicoBacterMod/]: Hello world from the MDK
-[2032021 13:29:35.094] [modloading-worker-9/INFO] [jp.qhrlhplhp.helicobactermod.HelicoBacterMod/]: Got IMC [Hello world]
-[2032021 13:29:35.402] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
-[2032021 13:29:35.661] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
-[2032021 13:29:35.662] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
-[2032021 13:29:35.788] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512 textures-atlas
-[2032021 13:29:36.349] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
-[2032021 13:29:36.352] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
-[2032021 13:29:36.353] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
-[2032021 13:29:54.345] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[2032021 13:29:54.346] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[2032021 13:29:54.347] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[2032021 13:29:54.347] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[2032021 13:29:54.348] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[2032021 13:29:54.459] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.14.4
-[2032021 13:29:54.459] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
-[2032021 13:29:54.588] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
-[2032021 13:29:54.763] [Server thread/ERROR] [net.minecraft.resources.ResourcePack/]: Couldn't load pack metadata
+[2032021 18:51:27.127] [modloading-worker-9/INFO] [jp.qhrlhplhp.helicobactermod.HelicoBacterMod/]: Hello world from the MDK
+[2032021 18:51:27.127] [modloading-worker-9/INFO] [jp.qhrlhplhp.helicobactermod.HelicoBacterMod/]: Got IMC [Hello world]
+[2032021 18:51:27.441] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[2032021 18:51:27.814] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[2032021 18:51:27.815] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[2032021 18:51:27.939] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512 textures-atlas
+[2032021 18:51:28.485] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
+[2032021 18:51:28.488] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
+[2032021 18:51:28.489] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
+[2032021 18:52:16.479] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[2032021 18:52:16.479] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[2032021 18:52:16.480] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[2032021 18:52:16.480] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[2032021 18:52:16.481] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[2032021 18:52:16.761] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.14.4
+[2032021 18:52:16.762] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[2032021 18:52:16.894] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[2032021 18:52:17.058] [Server thread/ERROR] [net.minecraft.resources.ResourcePack/]: Couldn't load pack metadata
 com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Expected name at line 5 column 6 path $.pack.pack_format
 	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:359) ~[?:?]
 	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:411) ~[?:?]
@@ -147,9 +146,9 @@ Caused by: com.google.gson.stream.MalformedJsonException: Expected name at line 
 	at com.google.gson.internal.bind.TypeAdapters$35$1.read(TypeAdapters.java:910) ~[gson-2.8.0.jar:?]
 	at net.minecraft.util.JSONUtils.fromJson(JSONUtils.java:357) ~[?:?]
 	... 12 more
-[2032021 13:29:54.765] [Server thread/ERROR] [net.minecraft.resources.ResourcePackInfo/]: Broken/missing pack.mcmeta detected, fudging it into existance. Please check that your launcher has downloaded all assets for the game correctly!
-[2032021 13:29:54.766] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar
-[2032021 13:29:55.663] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe helicobactermod:pylori_ingot
+[2032021 18:52:17.060] [Server thread/ERROR] [net.minecraft.resources.ResourcePackInfo/]: Broken/missing pack.mcmeta detected, fudging it into existance. Please check that your launcher has downloaded all assets for the game correctly!
+[2032021 18:52:17.063] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar
+[2032021 18:52:18.013] [Server thread/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe helicobactermod:pylori_ingot
 com.google.gson.JsonSyntaxException: Unknown item 'example_mod:pylori_ingot'
 	at net.minecraft.item.crafting.ShapedRecipe.lambda$deserializeItem$0(ShapedRecipe.java:280) ~[?:?]
 	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_282]
@@ -177,55 +176,200 @@ com.google.gson.JsonSyntaxException: Unknown item 'example_mod:pylori_ingot'
 	at net.minecraft.server.integrated.IntegratedServer.init(IntegratedServer.java:97) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:622) [?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_282]
-[2032021 13:29:55.683] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
-[2032021 13:29:56.734] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 811 advancements
-[2032021 13:29:57.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[2032021 13:29:57.620] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：0%
-[2032021 13:29:57.620] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：0%
-[2032021 13:29:59.363] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：83%
-[2032021 13:29:59.363] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：83%
-[2032021 13:29:59.363] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：83%
-[2032021 13:29:59.611] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：95%
-[2032021 13:30:00.104] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：96%
-[2032021 13:30:00.529] [Server thread/INFO] [jp.qhrlhplhp.helicobactermod.HelicoBacterMod/]: HELLO from server starting
-[2032021 13:30:00.540] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 3439 ms
-[2032021 13:30:01.065] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[2032021 13:30:01.066] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[2032021 13:30:03.630] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
-[2032021 13:30:03.782] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:60b0d3f2] logged in with entity id 213 at (-125.3487455315773, 64.0, -262.73734172968244)
-[2032021 13:30:03.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev がゲームに参加しました
-[2032021 13:30:04.107] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[2032021 13:30:04.123] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level '新規ワール'/minecraft:overworld
-[2032021 13:30:04.269] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 27 advancements
-[2032021 13:30:10.426] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6454ms or 129 ticks behind
-[2032021 13:31:32.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Dev> e
-[2032021 13:31:32.752] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] <Dev> e
-[2032021 13:31:48.737] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 37 advancements
-[2032021 13:32:25.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをサバイバルモードに変更しました]
-[2032021 13:32:25.501] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをサバイバルモードに変更しました
-[2032021 13:32:37.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをクリエイティブモードに変更しました]
-[2032021 13:32:37.073] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをクリエイティブモードに変更しました
-[2032021 13:32:52.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをサバイバルモードに変更しました]
-[2032021 13:32:52.979] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをサバイバルモードに変更しました
-[2032021 13:33:18.188] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 37 advancements
-[2032021 13:33:49.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをクリエイティブモードに変更しました]
-[2032021 13:33:49.316] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをクリエイティブモードに変更しました
-[2032021 13:34:27.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをサバイバルモードに変更しました]
-[2032021 13:34:27.896] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをサバイバルモードに変更しました
-[2032021 13:34:41.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev は進捗 [モンスターハンター] を達成した
-[2032021 13:34:41.034] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev は進捗 [モンスターハンター] を達成した
-[2032021 13:34:41.084] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 39 advancements
-[2032021 13:34:43.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをクリエイティブモードに変更しました]
-[2032021 13:34:43.619] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをクリエイティブモードに変更しました
-[2032021 13:36:10.873] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[2032021 13:36:10.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level '新規ワール'/minecraft:overworld
-[2032021 13:36:11.484] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: 切断されました
-[2032021 13:36:11.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev がゲームを退出しました
-[2032021 13:36:11.492] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
-[2032021 13:36:11.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[2032021 13:36:11.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[2032021 13:36:11.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[2032021 13:36:11.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level '新規ワール'/minecraft:overworld
-[2032021 13:36:11.655] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (新規ワール): All chunks are saved
-[2032021 13:36:11.671] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (新規ワール): All chunks are saved
-[2032021 13:36:12.587] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[2032021 18:52:18.039] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[2032021 18:52:19.071] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 811 advancements
+[2032021 18:52:19.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[2032021 18:52:20.230] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：0%
+[2032021 18:52:20.230] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：0%
+[2032021 18:52:20.486] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：47%
+[2032021 18:52:22.076] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：83%
+[2032021 18:52:22.076] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：83%
+[2032021 18:52:22.076] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：83%
+[2032021 18:52:22.450] [Server thread/INFO] [jp.qhrlhplhp.helicobactermod.HelicoBacterMod/]: HELLO from server starting
+[2032021 18:52:22.451] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: スポーン地点を準備中：99%
+[2032021 18:52:22.451] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 3020 ms
+[2032021 18:52:23.122] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[2032021 18:52:23.123] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[2032021 18:52:25.505] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[2032021 18:52:25.690] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:6a0ddedb] logged in with entity id 212 at (-154.7860469079025, 70.81551958725868, -161.1848015782021)
+[2032021 18:52:25.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev がゲームに参加しました
+[2032021 18:52:26.258] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[2032021 18:52:26.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level '新規ワール'/minecraft:overworld
+[2032021 18:52:26.369] [Client thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Received passengers for unknown entity
+[2032021 18:52:26.411] [Client thread/WARN] [net.minecraft.client.network.play.ClientPlayNetHandler/]: Received passengers for unknown entity
+[2032021 18:52:26.422] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 52 advancements
+[2032021 18:52:28.916] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2972ms or 59 ticks behind
+[2032021 18:53:17.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 天候を晴れに設定しました]
+[2032021 18:53:17.922] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 天候を晴れに設定しました
+[2032021 18:53:26.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 時刻を 1000 に設定しました]
+[2032021 18:53:26.419] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 時刻を 1000 に設定しました
+[2032021 18:53:32.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをサバイバルモードに変更しました]
+[2032021 18:53:32.469] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをサバイバルモードに変更しました
+[2032021 18:53:39.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをクリエイティブモードに変更しました]
+[2032021 18:53:39.305] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをクリエイティブモードに変更しました
+[2032021 18:54:11.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをサバイバルモードに変更しました]
+[2032021 18:54:11.117] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをサバイバルモードに変更しました
+[2032021 18:55:33.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをクリエイティブモードに変更しました]
+[2032021 18:55:33.564] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをクリエイティブモードに変更しました
+[2032021 18:55:49.805] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 53 advancements
+[2032021 18:55:53.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをサバイバルモードに変更しました]
+[2032021 18:55:53.440] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをサバイバルモードに変更しました
+[2032021 18:56:02.360] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 53 advancements
+[2032021 18:57:27.601] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2107ms or 42 ticks behind
+[2032021 18:58:31.236] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 時刻を 1000 に設定しました]
+[2032021 18:58:31.252] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 時刻を 1000 に設定しました
+[2032021 18:58:42.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 天候を晴れに設定しました]
+[2032021 18:58:42.069] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 天候を晴れに設定しました
+[2032021 19:01:21.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをクリエイティブモードに変更しました]
+[2032021 19:01:21.931] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをクリエイティブモードに変更しました
+[2032021 19:01:32.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをサバイバルモードに変更しました]
+[2032021 19:01:32.469] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをサバイバルモードに変更しました
+[2032021 19:03:59.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをクリエイティブモードに変更しました]
+[2032021 19:03:59.944] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをクリエイティブモードに変更しました
+[2032021 19:04:09.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 天候を晴れに設定しました]
+[2032021 19:04:09.708] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 天候を晴れに設定しました
+[2032021 19:04:12.667] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
+[2032021 19:04:15.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 時刻を 1000 に設定しました]
+[2032021 19:04:15.445] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 時刻を 1000 に設定しました
+[2032021 19:04:30.520] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2877ms or 57 ticks behind
+[2032021 19:04:38.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをサバイバルモードに変更しました]
+[2032021 19:04:38.590] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをサバイバルモードに変更しました
+[2032021 19:04:48.703] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[2032021 19:05:10.834] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7140ms or 142 ticks behind
+[2032021 19:05:15.835] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[2032021 19:05:16.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level '新規ワール'/minecraft:overworld
+[2032021 19:05:26.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをクリエイティブモードに変更しました]
+[2032021 19:05:26.153] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをクリエイティブモードに変更しました
+[2032021 19:05:38.551] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12757ms or 255 ticks behind
+[2032021 19:05:54.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをサバイバルモードに変更しました]
+[2032021 19:05:54.020] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをサバイバルモードに変更しました
+[2032021 19:06:00.071] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 不明なエンティティです：minecraft:arrowe
+[2032021 19:06:05.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく 矢 を召喚しました]
+[2032021 19:06:05.424] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく 矢 を召喚しました
+[2032021 19:06:16.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく 矢 を召喚しました]
+[2032021 19:06:16.543] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく 矢 を召喚しました
+[2032021 19:06:25.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[2032021 19:06:25.913] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[2032021 19:06:38.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev は高い所から落ちた
+[2032021 19:06:38.036] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev は高い所から落ちた
+[2032021 19:06:43.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをクリエイティブモードに変更しました]
+[2032021 19:06:43.155] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをクリエイティブモードに変更しました
+[2032021 19:06:57.985] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2091ms or 41 ticks behind
+[2032021 19:07:08.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをサバイバルモードに変更しました]
+[2032021 19:07:08.199] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをサバイバルモードに変更しました
+[2032021 19:07:12.961] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[2032021 19:07:13.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level '新規ワール'/minecraft:overworld
+[2032021 19:07:38.555] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 25612ms or 512 ticks behind
+[2032021 19:08:13.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[2032021 19:08:13.389] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[2032021 19:08:16.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[2032021 19:08:16.290] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[2032021 19:08:19.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[2032021 19:08:19.108] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[2032021 19:08:21.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[2032021 19:08:21.015] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[2032021 19:08:21.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[2032021 19:08:21.982] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[2032021 19:08:23.091] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[2032021 19:08:23.100] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[2032021 19:08:23.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[2032021 19:08:23.710] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[2032021 19:08:24.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[2032021 19:08:24.545] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[2032021 19:08:25.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[2032021 19:08:25.412] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[2032021 19:08:50.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをクリエイティブモードに変更しました]
+[2032021 19:08:50.021] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをクリエイティブモードに変更しました
+[2032021 19:09:02.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev は目標 [空はどこまでも高く] を達成した
+[2032021 19:09:02.746] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev は目標 [空はどこまでも高く] を達成した
+[2032021 19:09:02.758] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 54 advancements
+[2032021 19:09:54.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをサバイバルモードに変更しました]
+[2032021 19:09:54.644] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをサバイバルモードに変更しました
+[2032021 19:10:00.544] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[2032021 19:10:00.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level '新規ワール'/minecraft:overworld
+[2032021 19:10:21.146] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[2032021 19:10:21.367] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[2032021 19:10:21.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level '新規ワール'/minecraft:overworld
+[2032021 19:10:35.320] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 天候を晴れに設定しました]
+[2032021 19:10:35.780] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 天候を晴れに設定しました
+[2032021 19:10:41.534] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3641ms or 72 ticks behind
+[2032021 19:10:49.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをアドベンチャーモードに変更しました]
+[2032021 19:10:49.845] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをアドベンチャーモードに変更しました
+[2032021 19:10:55.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをクリエイティブモードに変更しました]
+[2032021 19:10:55.642] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをクリエイティブモードに変更しました
+[2032021 19:11:11.452] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 14959ms or 299 ticks behind
+[2032021 19:11:26.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをサバイバルモードに変更しました]
+[2032021 19:11:26.414] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをサバイバルモードに変更しました
+[2032021 19:11:31.082] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4638ms or 92 ticks behind
+[2032021 19:12:14.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[2032021 19:12:14.607] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[2032021 19:12:24.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[2032021 19:12:24.484] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[2032021 19:12:25.751] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 54 advancements
+[2032021 19:12:56.510] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[2032021 19:12:58.153] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[2032021 19:12:58.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level '新規ワール'/minecraft:overworld
+[2032021 19:13:38.057] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをクリエイティブモードに変更しました]
+[2032021 19:13:38.504] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをクリエイティブモードに変更しました
+[2032021 19:13:40.288] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 28795ms or 575 ticks behind
+[2032021 19:13:58.977] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3733ms or 74 ticks behind
+[2032021 19:14:00.035] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] エンティティが見つかりませんでした
+[2032021 19:14:08.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをサバイバルモードに変更しました]
+[2032021 19:14:08.407] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをサバイバルモードに変更しました
+[2032021 19:14:26.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[2032021 19:14:26.345] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[2032021 19:14:38.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[2032021 19:14:38.436] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[2032021 19:14:44.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[2032021 19:14:44.655] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[2032021 19:15:37.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[2032021 19:15:37.375] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[2032021 19:15:50.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[2032021 19:15:50.528] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[2032021 19:15:52.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[2032021 19:15:52.478] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[2032021 19:15:53.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[2032021 19:15:53.889] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[2032021 19:16:12.854] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[2032021 19:16:13.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level '新規ワール'/minecraft:overworld
+[2032021 19:17:05.498] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 53304ms or 1066 ticks behind
+[2032021 19:17:19.196] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[2032021 19:17:19.436] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level '新規ワール'/minecraft:overworld
+[2032021 19:17:32.817] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12323ms or 246 ticks behind
+[2032021 19:17:47.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 天候を晴れに設定しました]
+[2032021 19:17:47.323] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 天候を晴れに設定しました
+[2032021 19:17:52.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 時刻を 1000 に設定しました]
+[2032021 19:17:53.007] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 時刻を 1000 に設定しました
+[2032021 19:18:44.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[2032021 19:18:44.635] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[2032021 19:18:46.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[2032021 19:18:46.996] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[2032021 19:19:10.599] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2056ms or 41 ticks behind
+[2032021 19:19:17.213] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[2032021 19:19:17.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level '新規ワール'/minecraft:overworld
+[2032021 19:20:09.204] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 43610ms or 872 ticks behind
+[2032021 19:20:26.754] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2561ms or 51 ticks behind
+[2032021 19:21:30.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[2032021 19:21:30.962] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[2032021 19:21:36.145] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2902ms or 58 ticks behind
+[2032021 19:21:39.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: 新しく エンダードラゴン を召喚しました]
+[2032021 19:21:39.725] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] 新しく エンダードラゴン を召喚しました
+[2032021 19:22:06.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをクリエイティブモードに変更しました]
+[2032021 19:22:07.006] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをクリエイティブモードに変更しました
+[2032021 19:22:15.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをサバイバルモードに変更しました]
+[2032021 19:22:15.857] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをサバイバルモードに変更しました
+[2032021 19:22:21.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: ゲームモードをクリエイティブモードに変更しました]
+[2032021 19:22:21.428] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] ゲームモードをクリエイティブモードに変更しました
+[2032021 19:22:33.744] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[2032021 19:22:33.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level '新規ワール'/minecraft:overworld
+[2032021 19:22:35.881] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2088ms or 41 ticks behind
+[2032021 19:22:35.894] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: 切断されました
+[2032021 19:22:35.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev がゲームを退出しました
+[2032021 19:22:35.915] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[2032021 19:22:35.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[2032021 19:22:35.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[2032021 19:22:35.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[2032021 19:22:35.924] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level '新規ワール'/minecraft:overworld
+[2032021 19:22:36.574] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (新規ワール): All chunks are saved
+[2032021 19:22:36.598] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (新規ワール): All chunks are saved
+[2032021 19:22:51.589] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: HelicoBacterMod
-Implementation-Version: 1.14.4-1.1.0
+Implementation-Version: 1.1.1
 Specification-Vendor: examplemodsareus
 Specification-Title: examplemod
-Implementation-Timestamp: 2021-03-20T13:39:50+0900
+Implementation-Timestamp: 2021-03-20T19:28:20+0900
 Specification-Version: 1
 Implementation-Vendor: examplemodsareus
 

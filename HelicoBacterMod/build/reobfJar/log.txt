@@ -1,4 +1,4 @@
-Args: "--in-jar", "C:\Mods\HelicoBacterMod\build\libs\modid-1.14.4-1.1.0.jar", "--out-jar", "C:\Mods\HelicoBacterMod\build\reobfJar\output.jar", "--srg-in", "C:\Mods\HelicoBacterMod\build\createMcpToSrg\output.tsrg", "--live"
+Args: "--in-jar", "C:\Users\pylori169\github\gittest\HelicoBacterMod\build\libs\helicobactermod-1.1.1.jar", "--out-jar", "C:\Users\pylori169\github\gittest\HelicoBacterMod\build\reobfJar\output.jar", "--srg-in", "C:\Users\pylori169\github\gittest\HelicoBacterMod\build\createMcpToSrg\output.tsrg", "--live"
 Classpath: C:\Users\pylori169\.gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.8.3\SpecialSource-1.8.3-shaded.jar
 Classpath: C:\Users\pylori169\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3\forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar
 Classpath: C:\Users\pylori169\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3\forge-1.14.4-28.1.0_mapped_snapshot_20190719-1.14.3-launcher.jar
@@ -72,7 +72,7 @@ Classpath: C:\Users\pylori169\.gradle\caches\modules-2\files-2.1\net.java.jinput
 Classpath: C:\Users\pylori169\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\385ee093e01f587f30ee1c8a2ee7d408fd732e16\jinput-platform-2.0.5-natives-windows.jar
 Classpath: C:\Users\pylori169\.gradle\caches\modules-2\files-2.1\net.java.jinput\jinput-platform\2.0.5\53f9c919f34d2ca9de8c51fc4e1e8282029a9232\jinput-platform-2.0.5-natives-osx.jar
 Classpath: C:\Users\pylori169\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar
-WorkDir: C:\Mods\HelicoBacterMod\build\reobfJar
+WorkDir: C:\Users\pylori169\github\gittest\HelicoBacterMod\build\reobfJar
 Main: net.md_5.specialsource.SpecialSource
 ====================================
 Loading mappings

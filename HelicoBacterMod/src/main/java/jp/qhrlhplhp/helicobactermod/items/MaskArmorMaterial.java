@@ -15,10 +15,10 @@ import java.util.function.Supplier;
 
 public enum MaskArmorMaterial implements IArmorMaterial {
     MASK("mask", 1, new int[]{1, 1, 1, 1}, 1, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0F, () -> {
-        return Ingredient.fromItems(ItemList.PyloriIngot);
+        return Ingredient.fromItems(ItemList.Pylori);
     });
 
-    private static final int[] MAX_DAMAGE_ARRAY = new int[]{1, 1, 1, 1000000000};
+    private static final int[] MAX_DAMAGE_ARRAY = new int[]{1, 1, 1, 2};
     private final String name;
     private final int maxDamageFactor;
     private final int[] damageReductionAmountArray;
