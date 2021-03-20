@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 {
   "parent": "block/cube_all",
   "textures": {
     "all": "helicobactermod:blocks/urease_plank"
   }
+=======
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "helicobactermod:blocks/urease_plank"
+  }
+>>>>>>> test
 }

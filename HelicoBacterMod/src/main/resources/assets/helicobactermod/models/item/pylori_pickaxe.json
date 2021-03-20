@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 {
   "parent": "item/handheld",
   "textures": {
     "layer0": "helicobactermod:items/pylori_pickaxe"
   }
+=======
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "helicobactermod:items/pylori_pickaxe"
+  }
+>>>>>>> test
 }

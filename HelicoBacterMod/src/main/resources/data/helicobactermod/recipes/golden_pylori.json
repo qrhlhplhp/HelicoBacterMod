@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
@@ -16,4 +17,24 @@
   "result": {
     "item": "helicobactermod:golden_pylori"
   }
+=======
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_block"
+    },
+    "X": {
+      "item": "helicobactermod:pylori"
+    }
+  },
+  "result": {
+    "item": "helicobactermod:golden_pylori"
+  }
+>>>>>>> test
 }

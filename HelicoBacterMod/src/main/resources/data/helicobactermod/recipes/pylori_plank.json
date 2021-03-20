@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
@@ -13,4 +14,21 @@
   "result": {
     "item": "helicobactermod:pylori_plank"
   }
+=======
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "helicobactermod:pylori_lump"
+    }
+  },
+  "result": {
+    "item": "helicobactermod:pylori_plank"
+  }
+>>>>>>> test
 }

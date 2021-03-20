@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
@@ -16,4 +17,24 @@
   "result": {
     "item": "helicobactermod:urease_helmet"
   }
+=======
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "helicobactermod:urease"
+    },
+    "X": {
+      "item": "helicobactermod:pylori_helmet"
+    }
+  },
+  "result": {
+    "item": "helicobactermod:urease_helmet"
+  }
+>>>>>>> test
 }

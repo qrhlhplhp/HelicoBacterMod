@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
@@ -14,4 +15,22 @@
   "result": {
     "item": "helicobactermod:fermented_stomach"
   }
+=======
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "helicobactermod:stomach"
+    }
+  ],
+  "result": {
+    "item": "helicobactermod:fermented_stomach"
+  }
+>>>>>>> test
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
@@ -9,4 +10,17 @@
     "item": "example_mod:pylori_ingot",
     "count": 9
   }
+=======
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "helicobactermod:pylori_block"
+    }
+  ],
+  "result": {
+    "item": "example_mod:pylori_ingot",
+    "count": 9
+  }
+>>>>>>> test
 }

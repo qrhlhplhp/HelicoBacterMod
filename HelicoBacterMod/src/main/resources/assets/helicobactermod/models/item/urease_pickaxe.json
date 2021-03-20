@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 {
   "parent": "item/handheld",
   "textures": {
     "layer0": "helicobactermod:items/urease_pickaxe"
   }
+=======
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "helicobactermod:items/urease_pickaxe"
+  }
+>>>>>>> test
 }

@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 {
   "parent": "item/generated",
   "textures": {
     "layer0": "helicobactermod:items/pylori_chestplate"
   }
+=======
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "helicobactermod:items/pylori_chestplate"
+  }
+>>>>>>> test
 }
